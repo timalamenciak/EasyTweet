@@ -3,6 +3,8 @@ Introduction
 
 This script simply sends a tweet. It's designed for low-bandwidth applications, where you don't even have enough of a connection to check Twitter. It works well for spotty connections like satellite uplinks.
 
+The goal is to keep this simple, light and blazing fast. This is likely the fastest way to tweet.
+
 Usage
 =====
 
@@ -21,9 +23,11 @@ Install dependencies:
   - simplegeo-python-oauth2
   - simplejson
 
-Party.
+- Sign up for developer access on Twitter - https://dev.twitter.com/apps/new
+- You have to make an app, so just give it a name and grab the authorization keys.
+- Open up tweet.py and paste the keys right in there.
 
 Future
 ======
 
-It'd be nice to have the script wait for input, so that you could fire it up and just blast off multiple tweets. 
+It'd be nice to have the script wait for input, so that you could fire it up and just blast off multiple tweets. That way the authorization wouldn't take vital seconds each time you tweet.
