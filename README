@@ -1,0 +1,29 @@
+Introduction
+============
+
+This script simply sends a tweet. It's designed for low-bandwidth applications, where you don't even have enough of a connection to check Twitter. It works well for spotty connections like satellite uplinks.
+
+Usage
+=====
+
+Command line:
+
+  python tweet.py This is my tweet.
+
+Simple.
+
+Installation
+============
+
+Install dependencies:
+- python-twitter
+  - httplib
+  - simplegeo-python-oauth2
+  - simplejson
+
+Party.
+
+Future
+======
+
+It'd be nice to have the script wait for input, so that you could fire it up and just blast off multiple tweets. 
